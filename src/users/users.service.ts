@@ -10,4 +10,18 @@ export class UsersService{
             age: body.age,
         }
     }
+    public read(){
+        return [
+            {
+                name: 'Suzy',
+                age: 10
+            },
+
+            {
+                name: 'Mark',
+                age: 5
+            }
+               
+        ]
+    }
 }
