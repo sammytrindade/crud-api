@@ -16,5 +16,4 @@ export class UsersController{
     public read(){
         return this.usersService.read();
     }
-
 }
